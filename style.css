@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #d2d1e7, #6aa0f8);
+  background: linear-gradient(135deg, #d2d1e7, #475367);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,7 +15,6 @@ body {
   padding: 20px;
 }
 
-/* Glass Container */
 .container {
   width: 100%;
   max-width: 450px;
@@ -40,7 +39,6 @@ h2 {
   font-weight: 600;
 }
 
-/* Summary Cards */
 .summary {
   display: flex;
   gap: 10px;
@@ -68,7 +66,6 @@ h2 {
   font-size: 20px;
 }
 
-/* Form */
 form {
   display: flex;
   flex-direction: column;
@@ -106,7 +103,6 @@ button:hover {
   font-weight: 600;
 }
 
-/* Transaction List */
 .list {
   list-style: none;
   padding: 0;
@@ -134,6 +130,23 @@ button:hover {
 }
 .list li.expense {
   border-color: #ef4444;
+}
+
+/* NEW – Colored Amount Badge */
+.list li span {
+  padding: 4px 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.25);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.list li.income span {
+  color: #22c55e;
+}
+
+.list li.expense span {
+  color: #ef4444;
 }
 
 .list li button {
