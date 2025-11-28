@@ -9,6 +9,7 @@
 <body>
   <div class="container">
     <h2><i class="fa-solid fa-wallet"></i> Expense Tracker</h2>
+
     <div class="summary">
       <div class="card">
         <p>Balance</p>
@@ -23,14 +24,24 @@
         <h3 id="expense">₹0.00</h3>
       </div>
     </div>
+
+    <!-- 🔥 New Monthly Income Form -->
+    <form id="form-income">
+      <input type="number" id="monthlyIncome" placeholder="Enter your monthly income..." required />
+      <button type="submit"><i class="fa-solid fa-coins"></i> Save Monthly Income</button>
+    </form>
+
+    <!-- Transaction Form -->
     <form id="form">
       <input type="text" id="text" placeholder="Enter expense Item..." required />
       <input type="number" id="amount" placeholder="Enter amount ( + / - )" required />
       <button type="submit"><i class="fa-solid fa-plus"></i> Add Transaction</button>
     </form>
+
     <h3 class="list-title">Transaction History</h3>
     <ul id="transactions" class="list"></ul>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
