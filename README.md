@@ -1,6 +1,6 @@
 # Expense Tracker
 
-![Expense Tracker UI](<img width="1892" height="912" alt="image" src="https://github.com/user-attachments/assets/6bbb0fe8-4060-4356-9775-ac29d08406be" />
+![Expense Tracker UI](<img width="1900" height="930" alt="image" src="https://github.com/user-attachments/assets/d6ed9da3-d39a-47d8-ab49-4e0c1fe157e5" />
 )
 
 A simple, modern Expense Tracker web app to record transactions, view balance, income, and expenses.
